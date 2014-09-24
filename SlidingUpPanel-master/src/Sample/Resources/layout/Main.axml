@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cheesebaron.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    app:collapsedHeight="68dp"
+    app:shadowHeight="4dp"
+    app:dragView="@+id/infobox">
+<!-- Main content -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="true">
+        <TextView
+            android:id="@+id/main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/main"
+            android:textSize="16sp" />
+    </RelativeLayout>
+<!-- Sliding panel -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="false">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:background="@drawable/container_dropshadow"
+            android:id="@+id/infobox">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textSize="24sp"
+                android:text="@string/name"
+                android:paddingLeft="10dp" />
+            <ImageView
+                android:id="@+id/follow"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_alignParentRight="true"
+                android:padding="8dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/my_mug" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/more_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/more_info"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</cheesebaron.slidinguppanel.SlidingUpPanelLayout>
