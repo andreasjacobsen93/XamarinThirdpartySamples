@@ -1,0 +1,6 @@
+/Users/reedaw6/GoogleAdMobAds/GoogleAdMobAds/obj/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/reedaw6/GoogleAdMobAds/GoogleAdMobAds/obj/Debug/GoogleAdMobAds.libGoogleAdMobAds.a
+/Users/reedaw6/GoogleAdMobAds/GoogleAdMobAds/bin/Debug/GoogleAdMobAds.dll.mdb
+/Users/reedaw6/GoogleAdMobAds/GoogleAdMobAds/bin/Debug/GoogleAdMobAds.dll
+/Users/reedaw6/GoogleAdMobAds/GoogleAdMobAds/obj/Debug/GoogleAdMobAds.dll
+/Users/reedaw6/GoogleAdMobAds/GoogleAdMobAds/obj/Debug/GoogleAdMobAds.dll.mdb

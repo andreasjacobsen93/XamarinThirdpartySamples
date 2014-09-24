@@ -1,0 +1,76 @@
+using System;
+using System.Collections.Generic;
+using System.Threading;
+#if __IOS__
+using MonoTouch.Foundation;
+#elif __ANDROID__
+using Android.App;
+#endif
+
+namespace Xamarin.Helpers {
+	public class Wait {
+		readonly object LockObj = new object();
+		volatile bool Continue;
+		List<Action> Funcs { get; set; }
+		int Sleep { get; set; }
+
+		#if __IOS__
+		static readonly NSObject UIThread = new NSObject();
+		#elif __ANDROID__
+		public static Activity UIThread { get; set; }
+		#endif
+
+		internal Wait() {
+			Funcs = new List<Action>();
+		}
+
+		public void Abort() {
+			lock (LockObj) {
+				if (!Continue)
+					return;
+
+				Continue = false;
+			}
+		}
+
+		public Wait Commit(bool sameThread = false) {
+			Continue = true;
+
+			Action act = () => {
+				Thread.Sleep(Sleep);
+
+				lock (LockObj) {
+					if (!Continue)
+						return;
+
+					foreach (var f in Funcs)
+						f();
+				}
+			};
+
+			if (sameThread)
+				act();
+			else
+				new Thread(() => UIThread.InvokeOnMainThread(() => act())).Start();
+
+			return this;
+		}
+
+		public static Wait For(int ms) {
+			if (ms < 0)
+				throw new ArgumentOutOfRangeException();
+
+			return new Wait {
+				Sleep = ms
+			};
+		}
+
+		public Wait Then(Action f) {
+			if (f != null)
+				Funcs.Add(f);
+
+			return this;
+		}
+	}
+}
+

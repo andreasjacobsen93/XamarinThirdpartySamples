@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/CustomControl.CustomControl"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+    <CustomControl.CircleImageView
+        android:src="@drawable/funny_cat_amazed"
+        android:id="@+id/imgPicture4"
+        android:adjustViewBounds="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="clip_vertical"
+        android:scaleType="fitCenter"
+        custom:color_fondo_circulo="#fff11f"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>

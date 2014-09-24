@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B23F326-842F-4C93-9BA4-B76CB0160762}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Xamarin.Helpers</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Xamarin.Helpers</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;IPHONE;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <DefineConstants>IPHONE;</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="ServiceStack.Text.MonoTouch">
+      <HintPath>..\Third parties\ServiceStack.Text.MonoTouch.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoTouch.Dialog-1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="Alert.cs" />
+    <Compile Include="CssParser.cs" />
+    <Compile Include="DateUtil.cs" />
+    <Compile Include="Device.cs" />
+    <Compile Include="Ignore.cs" />
+    <Compile Include="Extensions\String.cs" />
+    <Compile Include="Extensions\UIImage.cs" />
+    <Compile Include="Extensions\UITextField.cs" />
+    <Compile Include="Extensions\UITableView.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Extensions\Byte.cs" />
+    <Compile Include="Wait.cs" />
+    <Compile Include="ApplicationHelper.cs" />
+    <Compile Include="Extensions\Task.cs" />
+    <Compile Include="Extensions\NSData.cs" />
+    <Compile Include="VersionHelper.cs" />
+    <Compile Include="LogEntries.cs" />
+    <Compile Include="Extensions\UIActionSheet.cs" />
+    <Compile Include="CustomException.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="Extensions\DateTime.cs" />
+    <Compile Include="Extensions\TaskFactory.cs" />
+    <Compile Include="Extensions\From.cs" />
+    <Compile Include="Sheet.cs" />
+    <Compile Include="ParseHelper.cs" />
+  </ItemGroup>
+</Project>

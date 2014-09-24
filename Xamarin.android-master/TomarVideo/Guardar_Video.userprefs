@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Guardar_Video\Properties\AndroidManifest.xml">
+    <Files>
+      <File FileName="Guardar_Video\MainActivity.cs" Line="168" Column="3" />
+      <File FileName="Guardar_Video\Properties\AndroidManifest.xml" Line="7" Column="78" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Guardar__Video AndroidDeviceId-Debug="4df7013f0a853075" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+</Properties>

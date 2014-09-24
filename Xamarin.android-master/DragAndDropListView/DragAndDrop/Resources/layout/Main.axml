@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:background="@drawable/fondo_content_left">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:id="@+id/linearLayout1"
+            android:background="@drawable/fondo_degradado2">
+            <ImageView
+                android:src="@drawable/funny_cat_amazed"
+                android:id="@+id/imgPicture4"
+                android:adjustViewBounds="true"
+                android:layout_width="32dip"
+                android:layout_height="32dip"
+                android:gravity="clip_vertical"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dip" />
+            <TextView
+                android:text="USUARIO"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/textView2"
+                android:textColor="#ffffffff"
+                android:layout_marginTop="4dip"
+                android:layout_marginBottom="4dip" />
+        </LinearLayout>
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="0.5dip"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:id="@+id/lvPermisos_Usuario" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:background="@drawable/fondo_content_right">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/fondo_degradado3"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <ImageView
+                android:src="@drawable/ic_1"
+                android:id="@+id/imageView1"
+                android:adjustViewBounds="true"
+                android:layout_width="32dip"
+                android:layout_height="32dip"
+                android:gravity="clip_vertical"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dip" />
+            <TextView
+                android:text="PERMISOS"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/textView3"
+                android:textColor="#ffffffff"
+                android:layout_marginTop="4dip"
+                android:layout_marginBottom="4dip" />
+        </LinearLayout>
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="0.5dip"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:id="@+id/lvPermisos" />
+    </LinearLayout>
+</LinearLayout>

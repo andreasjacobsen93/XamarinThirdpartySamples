@@ -1,0 +1,23 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<!--<attr path="/api/package[@name='org.achartengine.tools']/class[@name='Pan']" name="name">PanClass</attr>-->
+
+	<attr path="/api/package[@name='org.achartengine.renderer']/class[@name='XYSeriesRenderer.FillOutsideLine']/method[@name='getType' and count(parameter)=0]" name="managedName">GetBehaviorType</attr>
+	<attr path="/api/package[@name='org.achartengine.renderer']/class[@name='XYSeriesRenderer.FillOutsideLine.Type']" name="managedName">FillOutsideLineBehaviorType</attr>
+	<attr path="/api/package[@name='org.achartengine']" name="managedName">AChartEngine</attr>
+	<attr path="/api/package[@name='org.achartengine.chart']" name="managedName">AChartEngine.Chart</attr>
+	<attr path="/api/package[@name='org.achartengine.model']" name="managedName">AChartEngine.Model</attr>
+	<attr path="/api/package[@name='org.achartengine.renderer']" name="managedName">AChartEngine.Renderer</attr>
+	<attr path="/api/package[@name='org.achartengine.tools']" name="managedName">AChartEngine.Tools</attr>
+	<attr path="/api/package[@name='org.achartengine.util']" name="managedName">AChartEngine.Util</attr>
+
+	<attr path="/api/package[@name='org.achartengine.tools']/class[@name='Pan']/method[@name='addPanListener']" name="eventName">PanEvent</attr>
+
+</metadata>

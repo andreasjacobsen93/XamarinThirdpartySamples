@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F49DC09F-F894-45D1-B56A-B72F4428C421}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XamarinAnimationsDemo</RootNamespace>
+    <AssemblyName>XamarinAnimationsDemo</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xamarin.Android.Support.v13">
+      <HintPath>..\Components\xamandroidsupportv13-18-20.0.0\lib\android\Xamarin.Android.Support.v13.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CardFlipActivity.cs" />
+    <Compile Include="CrossfadeActivity.cs" />
+    <Compile Include="LayoutChangeActivity.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScreenSlideActivity.cs" />
+    <Compile Include="ScreenSlidePageFragment.cs" />
+    <Compile Include="TouchHighlightImageButtom.cs" />
+    <Compile Include="ZoomActivity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\animator\card_flip_left_in.xml" />
+    <AndroidResource Include="Resources\animator\card_flip_left_out.xml" />
+    <AndroidResource Include="Resources\animator\card_flip_right_in.xml" />
+    <AndroidResource Include="Resources\animator\card_flip_right_out.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_info.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_new.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_photo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_list_remove.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_info.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_new.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_photo.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_list_remove.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\image1.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\image2.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\thumb1.png" />
+    <AndroidResource Include="Resources\drawable-nodpi\thumb2.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_info.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_new.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_photo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_list_remove.png" />
+    <AndroidResource Include="Resources\layout\activity_card_flip.xml" />
+    <AndroidResource Include="Resources\layout\activity_crossfade.xml" />
+    <AndroidResource Include="Resources\layout\activity_layout_changes.xml" />
+    <AndroidResource Include="Resources\layout\activity_main.xml" />
+    <AndroidResource Include="Resources\layout\activity_screen_slide.xml" />
+    <AndroidResource Include="Resources\layout\activity_zoom.xml" />
+    <AndroidResource Include="Resources\layout\excerpt_content.xml" />
+    <AndroidResource Include="Resources\layout\fragment_card_back.xml" />
+    <AndroidResource Include="Resources\layout\fragment_card_front.xml" />
+    <AndroidResource Include="Resources\layout\fragment_screen_slide_page.xml" />
+    <AndroidResource Include="Resources\layout\list_item_example.xml" />
+    <AndroidResource Include="Resources\menu\activity_crossfade.xml" />
+    <AndroidResource Include="Resources\menu\activity_layout_changes.xml" />
+    <AndroidResource Include="Resources\menu\activity_screen_slide.xml" />
+    <AndroidResource Include="Resources\values\ids.xml" />
+    <AndroidResource Include="Resources\values\integers.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="xamandroidsupportv13-18">
+      <Visible>False</Visible>
+      <Version>20.0.0</Version>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

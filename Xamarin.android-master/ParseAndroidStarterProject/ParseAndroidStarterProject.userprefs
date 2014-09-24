@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ParseAndroidStarterProject\EditarActivity.cs">
+    <Files>
+      <File FileName="ParseAndroidStarterProject\ContactosActivity.cs" Line="64" Column="4" />
+      <File FileName="ParseAndroidStarterProject\EditarActivity.cs" Line="61" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ParseAndroidStarterProject AndroidDeviceId-Debug="4df7013f0a853075" MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+</Properties>

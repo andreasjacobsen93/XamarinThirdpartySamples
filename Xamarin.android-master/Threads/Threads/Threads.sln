@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads", "Threads\Threads.csproj", "{FD17F024-ACF1-4C43-9393-D56E1A4DE237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD17F024-ACF1-4C43-9393-D56E1A4DE237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD17F024-ACF1-4C43-9393-D56E1A4DE237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD17F024-ACF1-4C43-9393-D56E1A4DE237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD17F024-ACF1-4C43-9393-D56E1A4DE237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Threads\Threads.csproj
+	EndGlobalSection
+EndGlobal

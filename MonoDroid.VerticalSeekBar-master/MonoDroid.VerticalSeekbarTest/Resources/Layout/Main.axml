@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:id="@+id/layout1">
+
+  <RelativeLayout
+    android:id="@+id/first"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+    <TextView
+      android:id="@+id/progress1"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:gravity="center"
+      android:layout_alignParentBottom="true"
+      android:text="0%"
+      />
+    
+    <monodroid.verticalseekbar.VerticalSeekBar
+      android:id="@+id/seekbar1"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:layout_above="@id/progress1"
+      android:layout_alignParentTop="true"
+      />
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:layout_toRightOf="@+id/first">
+    <TextView
+      android:id="@+id/progress2"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:gravity="center"
+      android:layout_alignParentBottom="true"
+      android:text="0%"
+      />
+
+    <monodroid.verticalseekbar.VerticalSeekBar
+      android:id="@+id/seekbar2"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:layout_above="@id/progress2"
+      android:layout_alignParentTop="true"
+      />
+  </RelativeLayout>
+</RelativeLayout>

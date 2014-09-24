@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+     <!--COLOREA EL FONDO  DEL CONTROL-->
+     <item android:id="@android:id/background">
+         <shape>
+             <corners android:radius="25dip" />
+             <gradient 
+                 android:startColor="#E8E8E6"
+                 android:centerColor="#D8D8D8"
+                 android:centerY="0.75" 
+                 android:endColor= "#D8D8D8" 
+                 android:angle="90" />
+             <stroke android:width="1dp" android:color="#D8D8D8" />
+         </shape>
+     </item>
+     
+      <!--COLOREA EL PROGRESO DEL CONTROL-->
+     <item android:id="@android:id/progress">
+         <clip>
+             <shape>
+                 <corners android:radius="25dip" />
+                 <gradient 
+                     android:startColor="#FBCA00" 
+                     android:endColor="#FFEB44"
+                     android:angle="90" />
+                 <stroke android:width="1dp" android:color="#FFEB44" />
+             </shape>
+         </clip>
+     </item>
+ </layer-list>

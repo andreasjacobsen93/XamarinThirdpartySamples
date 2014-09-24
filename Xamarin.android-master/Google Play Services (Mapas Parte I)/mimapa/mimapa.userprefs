@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="mimapa\Clases\CustomInfoWindowAdapter.cs">
+    <Files>
+      <File FileName="mimapa\MainActivity.cs" Line="85" Column="81" />
+      <File FileName="mimapa\Properties\AndroidManifest.xml" Line="2" Column="120" />
+      <File FileName="mimapa\Clases\Ciudad_Marca.cs" Line="42" Column="25" />
+      <File FileName="mimapa\Clases\CustomInfoWindowAdapter.cs" Line="37" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.mimapa MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="12900177115" />
+</Properties>

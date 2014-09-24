@@ -1,0 +1,10 @@
+<metadata>
+  <!-- Don't bind internal packages/classes -->
+  <remove-node path="/api/package[starts-with(@name, 'com.actionbarsherlock.internal')]" />
+  <!-- Normalize the API, forced to use underscore to avoid name conflicts -->
+  <attr path="/api/package[@name='android.support.v4.app']" name="managedName">Android.Support.V4.App</attr>
+  <attr path="/api/package[@name='com.actionbarsherlock']" name="managedName">ActionBar_Sherlock</attr>
+  <attr path="/api/package[@name='com.actionbarsherlock.app']" name="managedName">ActionBar_Sherlock.App</attr>
+  <attr path="/api/package[@name='com.actionbarsherlock.view']" name="managedName">ActionBar_Sherlock.View</attr>
+  <attr path="/api/package[@name='com.actionbarsherlock.widget']" name="managedName">ActionBar_Sherlock.Widget</attr>
+ </metadata>

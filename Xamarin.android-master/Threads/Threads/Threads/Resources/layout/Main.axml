@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+<!-- JAVA THREAD -->
+    <Control.ProgressCircleView
+        android:id="@+id/pv_Porcentaje_uno"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:gravity="top" />
+    <Button
+        android:id="@+id/btnJavaThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java-Thread"
+        android:background="@drawable/Fondo_Boton"
+        android:textColor="#ff14b8d5"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="10dp" />
+<!-- SYSTEM.THREAD -->
+    <Control.ProgressCircleView
+        android:id="@+id/pv_Porcentaje_dos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:gravity="top" />
+    <Button
+        android:id="@+id/btnThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System-Thread"
+        android:background="@drawable/Fondo_Boton"
+        android:textColor="#ff14b8d5"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="10dp" />
+<!-- TASK PARALLEL LIBRARY -->
+    <Control.ProgressCircleView
+        android:id="@+id/pv_Porcentaje_tres"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:gravity="top" />
+    <Button
+        android:id="@+id/btnTaskParallelLibrary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Parallel Library"
+        android:background="@drawable/Fondo_Boton"
+        android:textColor="#ff14b8d5"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="10dp" />
+<!-- ASYNCTASK -->
+    <Button
+        android:id="@+id/btnAsyncTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AsyncTask"
+        android:background="@drawable/Fondo_Boton"
+        android:textColor="#ff14b8d5"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="10dp" />
+</LinearLayout>

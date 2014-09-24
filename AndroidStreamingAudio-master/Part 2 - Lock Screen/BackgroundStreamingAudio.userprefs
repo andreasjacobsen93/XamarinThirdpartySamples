@@ -1,0 +1,12 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jamesmontemagno/Documents/GitHub/AndroidStreamingAudio/Part 2 - Lock Screen/Services/StreamingBackgroundService.cs" line="334" column="1" />
+      <Breakpoint file="/Users/jamesmontemagno/Documents/GitHub/AndroidStreamingAudio/Part 2 - Lock Screen/Receivers/RemoteControlBroadcastReceiver.cs" line="41" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BackgroundStreamingAudio AndroidDeviceId-Debug="0146970F1101E008" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+</Properties>

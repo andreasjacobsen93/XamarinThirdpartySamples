@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomUISwitch", "CustomUISwitch\CustomUISwitch.csproj", "{D6576D15-CC30-4357-9D61-B239DDD4212A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6576D15-CC30-4357-9D61-B239DDD4212A}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{D6576D15-CC30-4357-9D61-B239DDD4212A}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{D6576D15-CC30-4357-9D61-B239DDD4212A}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{D6576D15-CC30-4357-9D61-B239DDD4212A}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{D6576D15-CC30-4357-9D61-B239DDD4212A}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D6576D15-CC30-4357-9D61-B239DDD4212A}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D6576D15-CC30-4357-9D61-B239DDD4212A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D6576D15-CC30-4357-9D61-B239DDD4212A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D6576D15-CC30-4357-9D61-B239DDD4212A}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D6576D15-CC30-4357-9D61-B239DDD4212A}.Release|iPhone.Build.0 = Release|iPhone
+		{D6576D15-CC30-4357-9D61-B239DDD4212A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D6576D15-CC30-4357-9D61-B239DDD4212A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CustomUISwitch\CustomUISwitch.csproj
+	EndGlobalSection
+EndGlobal

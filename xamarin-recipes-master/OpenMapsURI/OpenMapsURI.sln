@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenMapsURI", "OpenMapsURI\OpenMapsURI.csproj", "{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}.Debug|iPhone.Build.0 = Debug|iPhone
+		{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}.Release|iPhone.Build.0 = Release|iPhone
+		{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{7DCECA4B-EF34-4C45-BF8F-246FACA500EB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = OpenMapsURI\OpenMapsURI.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SplashAndroide/Screens/SplashScreen.cs">
+    <Files>
+      <File FileName="SplashAndroide/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="SplashAndroide/Screens/SplashScreen.cs" Line="40" Column="4" />
+      <File FileName="SplashAndroide/Screens/HomeScreen.cs" Line="20" Column="42" />
+      <File FileName="SplashAndroide/CountDown.cs" Line="19" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SplashAndroide MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="emulator-5554" />
+</Properties>

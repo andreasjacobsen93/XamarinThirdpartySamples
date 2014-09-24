@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomControl\CircleImageView.cs">
+    <Files>
+      <File FileName="CustomControl\CircleImageView.cs" Line="39" Column="4" />
+      <File FileName="CustomControl\Resources\values\Atributos.xml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\XAMARIN PUBLICACIONES\TUTORIAL 7\CustomControl\CustomControl\CircleImageView.cs" line="95" column="1" />
+      <Breakpoint file="D:\XAMARIN PUBLICACIONES\TUTORIAL 7\CustomControl\CustomControl\CircleImageView.cs" line="85" column="1" />
+      <Breakpoint file="D:\XAMARIN PUBLICACIONES\TUTORIAL 7\CustomControl\CustomControl\CircleImageView.cs" line="124" column="1" />
+      <Breakpoint file="D:\XAMARIN PUBLICACIONES\TUTORIAL 7\CustomControl\CustomControl\CircleImageView.cs" line="129" column="1" />
+      <Breakpoint file="D:\XAMARIN PUBLICACIONES\TUTORIAL 7\CustomControl\CustomControl\CircleImageView.cs" line="139" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CustomControl MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="4df7013f0a853075" />
+</Properties>

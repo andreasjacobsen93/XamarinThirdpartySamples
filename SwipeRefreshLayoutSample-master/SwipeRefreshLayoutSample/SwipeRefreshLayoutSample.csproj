@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{94737A2B-3DB1-4CAC-B043-C1E4DF2CA856}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SwipeRefreshLayoutSample</RootNamespace>
+    <AssemblyName>SwipeRefreshLayoutSample</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidUseLatestPlatformSdk>
+    </AndroidUseLatestPlatformSdk>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <JavaOptions />
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Json" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>Components\xamandroidsupportv7appcompat-19.1.0\lib\android\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>Components\xamandroidsupportv7appcompat-19.1.0\lib\android\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="MenuExtensions.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\derp.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\drawable\ab_background_textured_gremlin.xml" />
+    <AndroidResource Include="Resources\drawable\btn_cab_done_gremlin.xml" />
+    <AndroidResource Include="Resources\drawable\progress_horizontal_gremlin.xml" />
+    <AndroidResource Include="Resources\drawable\selectable_background_gremlin.xml" />
+    <AndroidResource Include="Resources\drawable\spinner_background_ab_gremlin.xml" />
+    <AndroidResource Include="Resources\drawable\tab_indicator_ab_gremlin.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_bottom_solid_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_solid_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_stacked_solid_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_texture_tile_gremlin.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_transparent_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_cab_done_default_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_cab_done_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_cab_done_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cab_background_bottom_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cab_background_top_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\list_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\list_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\menu_dropdown_panel_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_bg_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_primary_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_secondary_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_default_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_disabled_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_selected_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_selected_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_selected_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_unselected_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_unselected_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_unselected_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_bottom_solid_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_solid_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_stacked_solid_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_texture_tile_gremlin.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_transparent_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btn_cab_done_default_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btn_cab_done_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btn_cab_done_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cab_background_bottom_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cab_background_top_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\list_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\list_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\menu_dropdown_panel_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_bg_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_primary_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_secondary_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_default_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_disabled_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_selected_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_selected_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_selected_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_unselected_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_unselected_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_unselected_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_bottom_solid_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_solid_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_stacked_solid_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_texture_tile_gremlin.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_transparent_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btn_cab_done_default_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btn_cab_done_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btn_cab_done_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cab_background_bottom_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cab_background_top_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\list_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\list_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\menu_dropdown_panel_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_bg_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_primary_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_secondary_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_default_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_disabled_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_selected_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_selected_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_selected_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_unselected_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_unselected_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_unselected_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_bottom_solid_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_solid_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_stacked_solid_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_texture_tile_gremlin.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_transparent_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btn_cab_done_default_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btn_cab_done_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btn_cab_done_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cab_background_bottom_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cab_background_top_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\list_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\list_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\menu_dropdown_panel_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progress_bg_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progress_primary_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progress_secondary_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\spinner_ab_default_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\spinner_ab_disabled_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\spinner_ab_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\spinner_ab_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_selected_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_selected_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_selected_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_unselected_focused_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_unselected_gremlin.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_unselected_pressed_gremlin.9.png" />
+    <AndroidResource Include="Resources\values\styles_gremlin.xml" />
+    <AndroidResource Include="Resources\values-v14\styles_gremlin.xml" />
+    <AndroidResource Include="Resources\values\ids.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_device_access_accounts.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_device_access_accounts.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_device_access_accounts.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_device_access_accounts.png" />
+    <AndroidResource Include="Resources\drawable\background.xml" />
+    <AndroidResource Include="Resources\drawable\goat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="xamandroidsupportv7appcompat">
+      <Visible>False</Visible>
+      <Version>19.1.0</Version>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

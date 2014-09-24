@@ -1,0 +1,14 @@
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\bin\Debug\MonoDroid.DatePickerSample.dll
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\bin\Debug\MonoDroid.DatePickerSample.pdb
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\bin\Debug\MonoDroid.DatePickerSample.dll.mdb
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\bin\Debug\MonoDroid.DatePickerSample.apk
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\bin\Debug\MonoDroid.DatePickerSample-Signed.apk
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\obj\Debug\MonoDroid.DatePickerSample.dll
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\obj\Debug\MonoDroid.DatePickerSample.pdb
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\obj\Debug\android\bin\MonoDroid.DatePickerSample.apk
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\obj\Debug\res\layout\main.axml
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\obj\Debug\res\values\strings.xml
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\obj\Debug\res\drawable\icon.png
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\obj\Debug\R.cs.flag
+C:\Users\tcielecki\Desktop\MonoDroid.DatePickerSample\MonoDroid.DatePickerSample\obj\Debug\uploadflags.txt

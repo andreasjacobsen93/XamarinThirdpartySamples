@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GoogleAdMobAds/ApiDefinition.cs">
+    <Files>
+      <File FileName="GoogleAdMobAds/StructsAndEnums.cs" Line="1" Column="1" />
+      <File FileName="GoogleAdMobAds/ApiDefinition.cs" Line="22" Column="50" />
+      <File FileName="../Downloads/monotouch-bindings-master-3/UrbanAirShip/binding/enums.cs" Line="1" Column="1" />
+      <File FileName="../Downloads/monotouch-bindings-master-3/SDWebImage/binding/StructsAndEnums.cs" Line="1" Column="1" />
+      <File FileName="GoogleAdMobAds/Extras.cs" Line="9" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

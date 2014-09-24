@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">MySearchView</string>
+
+
+	<!-- The label for use as a searchable item -->
+    <string name="search_label">Paises</string>
+
+    <!-- The hint text that appears in the search box. -->
+    <string name="search_hint">Buscar Pais</string>
+
+    <!-- The menu entry that invokes search. -->
+    <string name="menu_search">Buscar</string>
+
+    <!-- The description that will show up in the search settings for this source.  -->
+    <string name="settings_description">Buscar Paises</string>
+
+    <!-- General instructions in the main activity. -->
+    <string name="search_instructions">Usa la busquedad para localizar el pais </string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+      <item quantity="one">%1$d resultados de \"%2$s\": </item>
+      <item quantity="other">%1$d resultados de \"%2$s\": </item>
+    </plurals>
+
+    <!-- Search failure message. -->
+    <string name="no_results">No se encontraron paises  \"%s\"</string>
+
+</resources>

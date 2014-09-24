@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="custom_item\MainActivity.cs">
+    <Files>
+      <File FileName="custom_item\Resources\drawable\fondo_degradado.xml" Line="4" Column="14" />
+      <File FileName="custom_item\Resources\adapter\adapter_listview.cs" Line="14" Column="56" />
+      <File FileName="custom_item\MainActivity.cs" Line="16" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.custom__item MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="emulator-5554" />
+</Properties>

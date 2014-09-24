@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="about_summary">Android Calendar View Demo V0.5.0</string>
+  <string name="about">About</string>
+  <string name="pick_summary">start with ACTION_PICK</string>
+  <string name="pick">Pick up a Date</string>
+  <string name="show_summary">start with ACTION_VIEW</string>
+  <string name="show">Show Calendar</string>
+  <string name="app_name">Calendar Demo</string>
+  <string name="hint">Hint: touch the first or last day of month to move to previous or next month.</string>
+</resources>

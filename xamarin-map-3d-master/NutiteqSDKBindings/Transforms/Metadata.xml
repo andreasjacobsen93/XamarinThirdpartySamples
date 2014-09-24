@@ -1,0 +1,10 @@
+<metadata>
+	
+	<attr path="/api/package[@name='com.nutiteq.components']" name="managedName">NutiteqComponents</attr>
+	<attr path="/api/package[@name='com.nutiteq.layers']" name="managedName">NutiteqLayers</attr>
+	<attr path="/api/package[@name='com.nutiteq.style']" name="managedName">NutiteqStyle</attr>
+	<attr path="/api/package[@name='com.nutiteq.geometry']" name="managedName">NutiteqGeometry</attr>
+	
+	<attr path="/api/package[@name='com.nutiteq.geometry']/class[@name='NMLModel.Mesh']/field[@name='glMesh']" name="type">java.lang.Object</attr>
+	
+</metadata>

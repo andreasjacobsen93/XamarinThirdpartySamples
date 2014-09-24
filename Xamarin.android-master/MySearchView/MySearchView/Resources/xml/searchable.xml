@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+ <!--
+ 	 android:searchSettingsDescription=Proporciona una breve descripción de las sugerencias de búsqueda
+ 	 android:searchSuggestAuthority=Identificador Unico del content provider a utilizar
+ 	 android:searchSuggestIntentAction=Inten con el cual se dispara el evento de busqueda por default es "android.intent.action.VIEW"
+ 	 android:searchSuggestIntentData=Uri que utilizara por default cuando el usuario dispara el evento de busquedad
+ 	 android:searchSuggestSelection=Este valor que se pasa en su función de consulta como el parámetro de selección. 
+ 	 Normalmente se trata de una cláusula WHERE para su base de datos, y debe contener un único signo de interrogación, 
+ 	 que es un marcador de posición para la cadena de consulta real que se ha tecleado por el usuario (por ejemplo, "query =?").
+ 	 android:searchSuggestThreshold=El número mínimo de caracteres necesarios para desencadenar una sugerencia de consulta. 
+ 	 android:includeInGlobalSearch=Se establece en "true" si desea que sus sugerencias sean incluidas en el cuadro de búsqueda rápida. 
+ 	 El usuario debe permitir su aplicación como un elemento de búsqueda en la configuración de búsqueda del sistema 
+ 	 antes aparecerán tus sugerencias en cuadro de búsqueda rápida.
+ -->
+
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+        android:label="@string/search_label"
+        android:hint="@string/search_hint"
+        android:searchSettingsDescription="@string/settings_description"
+        android:searchSuggestAuthority="mysearchview.cpProveedorDatos"
+        android:searchSuggestIntentAction="android.intent.action.VIEW"
+        android:searchSuggestIntentData="content://mysearchview.cpProveedorDatos/paises"
+        android:searchSuggestSelection=" ?"
+        android:searchSuggestThreshold="1"
+        android:includeInGlobalSearch="true"
+        >
+ </searchable>

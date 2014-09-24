@@ -1,0 +1,6 @@
+The Internet is a global system of interconnected computer networks 
+that use the standard Internet protocol suite (TCP/IP) to serve billions of users worldwide. 
+It is a network of networks that consists of millions of private, public, academic, business, and government networks, 
+of local to global scope, that are linked by a broad array of electronic, wireless and optical networking technologies. 
+The Internet carries an extensive range of information resources and services, such as the inter-linked hypertext documents 
+of the World Wide Web (WWW) and the infrastructure to support email.

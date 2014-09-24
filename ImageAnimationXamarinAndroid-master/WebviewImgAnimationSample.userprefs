@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.168.56.102:5555" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="webviewSample\MainActivity.cs">
+    <Files>
+      <File FileName="webviewSample\MainActivity.cs" Line="4" Column="4" />
+      <File FileName="webviewSample\Assets\monkeyHome.html" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebviewImgAnimationSample MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

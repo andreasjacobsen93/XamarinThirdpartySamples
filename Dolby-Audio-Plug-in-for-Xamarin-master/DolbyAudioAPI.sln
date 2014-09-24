@@ -1,0 +1,40 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DolbyAudioAPI", "DolbyAudioAPI\DolbyAudioAPI.csproj", "{E851FE8A-131E-48DE-858F-C125B0C86890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DolbyTest", "DolbyTest\DolbyTest.csproj", "{96FDE2ED-DDB1-4D85-AB14-48091425575D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DolbyTest2", "DolbyTest2\DolbyTest2.csproj", "{B987D77B-A6CD-4E9C-986C-D56C9679AF4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96FDE2ED-DDB1-4D85-AB14-48091425575D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FDE2ED-DDB1-4D85-AB14-48091425575D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FDE2ED-DDB1-4D85-AB14-48091425575D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{96FDE2ED-DDB1-4D85-AB14-48091425575D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FDE2ED-DDB1-4D85-AB14-48091425575D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96FDE2ED-DDB1-4D85-AB14-48091425575D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B987D77B-A6CD-4E9C-986C-D56C9679AF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B987D77B-A6CD-4E9C-986C-D56C9679AF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B987D77B-A6CD-4E9C-986C-D56C9679AF4A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B987D77B-A6CD-4E9C-986C-D56C9679AF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B987D77B-A6CD-4E9C-986C-D56C9679AF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B987D77B-A6CD-4E9C-986C-D56C9679AF4A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E851FE8A-131E-48DE-858F-C125B0C86890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E851FE8A-131E-48DE-858F-C125B0C86890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E851FE8A-131E-48DE-858F-C125B0C86890}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E851FE8A-131E-48DE-858F-C125B0C86890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E851FE8A-131E-48DE-858F-C125B0C86890}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DolbyTest\DolbyTest.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
